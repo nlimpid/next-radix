@@ -2,10 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "~react-vis/dist/style";
+
+.root_layout_wrapper {
+  display: grid;
+  height: 100vh;
+  border: 1px solid black;
+  grid-template-rows: 50px minmax(0, 1fr) auto ;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas:
+    "header  header  "
+    "nav     main    "
+    "footer  footer  ";
+  gap: 1.25rem;
+}
+
+.root_layout_header {
+  grid-area: header;
+}
+
+.root_layout_main {
+  grid-area: main;
+}
+
+.root_layout_nav {
+  grid-area: nav;
+  transition: width 2s ease-out;
+  /*overflow: hidden;*/
+}
+
+/*.root_layout_nav.hidden {*/
+/*  width: 0;*/
+/*  padding: 0;*/
+/*  transition: width 0.3s ease-in-out;*/
+/*}*/
+
+.root_layout_sidebar {
+  grid-area: sidebar;
+  border: 1px solid black;
+}
+
+.root_layout_footer {
+  grid-area: footer;
+  
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /*--background-start-rgb: 214, 219, 220;*/
+  /*--background-end-rgb: 255, 255, 255;*/
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +67,5 @@ body {
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  ) rgb(var(--background-start-rgb));
 }

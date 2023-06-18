@@ -1,0 +1,12 @@
+{
+  "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
+    "tsx",
+    "typescript"
+  ],
+  "eablokker.tabsSidebar.config.customTabOrder" : [
+    "\/Users\/nlimpid\/Developer\/FrontEnd\/nextjs13-radix\/component\/layout.tsx",
+    "\/Users\/nlimpid\/Developer\/FrontEnd\/nextjs13-radix\/node_modules\/.pnpm\/@phosphor-icons+react@2.0.9_react-dom@18.2.0_react@18.2.0\/node_modules\/@phosphor-icons\/react\/dist\/icons\/Smiley.d.ts",
+    "\/Users\/nlimpid\/Developer\/FrontEnd\/nextjs13-radix\/node_modules\/.pnpm\/@phosphor-icons+react@2.0.9_react-dom@18.2.0_react@18.2.0\/node_modules\/@phosphor-icons\/react\/dist\/lib\/types.d.ts",
+    "\/Users\/nlimpid\/Developer\/FrontEnd\/nextjs13-radix\/node_modules\/.pnpm\/registry.npmmirror.com+@types+react@18.0.38\/node_modules\/@types\/react\/ts5.0\/index.d.ts"
+  ]
+}
